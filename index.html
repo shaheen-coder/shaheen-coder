@@ -2,277 +2,791 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Shaheen - Portfolio</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="shaheen vsa" name="keywords">
-    <meta content="shaheen ahmed portfolio" name="description">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaheen Portfolio</title>
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="51">
-    <!-- Navbar Start -->
-    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-        <a href="index.html" class="navbar-brand ml-lg-3">
-            <h1 class="m-0 display-5"><span class="text-primary">Sha</span>Vsa</h1>
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Shaheen Ahmed</h1>
+
+          <p class="title">AI\ML Enginner</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
         </button>
-        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-            <div class="navbar-nav m-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">About</a>
-                <a href="#skill" class="nav-item nav-link">Skill</a>
-                <a href="#contact" class="nav-item nav-link">Contact</a>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
             </div>
-            <a href="https://www.linkedin.com/in/shaheen-vsa" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
-        </div>
-    </nav>
-    <!-- Navbar End -->
 
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
 
-    <!-- Video Modal Start -->
-   
-    <!-- Video Modal End -->
-
-
-    <!-- Header Start -->
-    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/me.jpg" alt="">
-                </div>
-                <div class="col-lg-7 text-center text-lg-left">
-                    <h3 class="text-white font-weight-normal mb-3">I'm</h3>
-                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Shaheen Ahmed</h1>
-                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
-                    <div class="typed-text d-none">Web Developer, Back End Developer, AI Developer</div>
-                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <a href="img/resume.png" download="shaheen_resume.png" class="btn btn-outline-light mr-5">Download CV</a>
-                    </div>
-                </div>
+              <a href="mailto:shaheenvsa@gmail.com" class="contact-link">shaheenvsa@gmail.com</a>
             </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919677329608" class="contact-link">+91 9677329608</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">Oct 10, 2005</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Mayiladuthurai, TamilNadu, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/shaheen-coder" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://linkedin.com/in/shaheen-vsa" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/shaheen.vsa/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi, I’m Shaheen Ahmed — a college student and an aspiring AI/ML engineer currently learning how to build AI (purely for research… definitely not for taking over humanity 👀🤖).
+          </p>
+
+          <p>
+           I work with Python, C++, PyTorch, and LangChain, and I’m experimenting with creating my own foundational LLM model. I’ve even built Python extensions using C++, which means I’ve already fought both compilers and runtime errors — and survived.
+          </p>
+          <p>
+            When I’m not training models or debugging nonsense at 2AM, I’m learning, experimenting, and getting one step closer to accidentally building SkyNet.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python Developer</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/circle.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI Development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of LLM AI at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/computer.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Ai Model</h4>
+
+                <p class="service-item-text">
+                  Professional development of AI Chatbot.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/gear.png" alt="gear" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend</h4>
+
+                <p class="service-item-text">
+                  Django backend developer focused on scalable APIs and clean system design.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Nitheesh" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Nitheesh Kumar</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Shaheen was hired to create a corporate identity. We were very pleased with the work done. He has a
+                    lot of experience.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Rihana" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Rihana </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Shaheen was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Haja" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Haja Kalam</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Shaheen was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Nitheesh" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Nitheesh Kumar</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Shaheen was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
         </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+          
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Computer Science Engineering</h4>
+
+              <span>2023 — 2027</span>
+
+              <p class="timeline-text">
+                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
+                omnis..
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school of Biology Science</h4>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ML engineer</h4>
+
+              <span>2026 — Present</span>
+
+              <p class="timeline-text">
+                An aspiring Machine Learning engineer bridging the gap between academic theory and industry-grade AI deployment.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Django Backend Developer</h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Streamlined AVC College’s internal operations by architecting and maintaining robust web tools using the Django framework.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Pytorch</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">LangChain</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">LLM Training</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>LLM</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>CPP</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>PYTHON</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>LLM</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>CPP</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>PYTHON</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+            <!-- tiny lm project -->
+            <li class="project-item  active" data-filter-item data-category="LLM">
+              <a href="https://github.com/shaheen-coder/tiny_gru_lm">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/1766562868551.jpg" alt="Tiny LM" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">GruLm</h3>
+
+                <p class="project-category">LLM</p>
+
+              </a>
+            </li>
+            <!-- ShaGPT -->
+            <li class="project-item  active" data-filter-item data-category="LLM">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/shagpt.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ShaGPT</h3>
+
+                <p class="project-category">LLM</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="CPP">
+              <a href="https://github.com/shaheen-coder/shatokenizer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project_bpe.png" alt="tokenizer" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ShaTokenizer</h3>
+
+                <p class="project-category">CPP</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="PYTHON">
+              <a href="https://github.com/shaheen-coder/AVCCE_FeedBack">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/feedback.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AVCCE FeedBack</h3>
+
+                <p class="project-category">PYTHON</p>
+
+              </a>
+            </li>
+
+           
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe 
+              referrerpolicy="no-referrer-when-downgrade" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62681.33405797302!2d79.61331853457106!3d11.107073282276943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5526c731f23221%3A0x393963c6d0b5866a!2sMayiladuthurai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
     </div>
-    <!-- Header End -->
+
+  </main>
 
 
-    <!-- About Start -->
-    <div class="container-fluid py-5" id="about">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
-                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid rounded w-100" src="img/me.jpg" alt="">
-                </div>
-                <div class="col-lg-7">
-                    <h3 class="mb-4">AI Designer & Web Developer</h3>
-                    <p>Proficient in developing robust backend applications using Django and Django REST Framework, coupled with strong database management skills in MariaDB. Experienced in building AI chatbots using PyTorch, demonstrating a practical understanding of conversational AI.
-                    </p>
-                    <div class="row mb-3">
-                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Shaheen Ahmed</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">10 Oct 2005</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Bachelor of Computer Science</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">0 Years</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+91 9677329608</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">shaheenvsa@gmail.com</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">71 thadalan north street, sirkali, mayiladuthurai 609110</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
-                    </div>
-                    <a href="https://www.linkedin.com/in/shaheen-vsa" class="btn btn-outline-primary mr-4">Hire Me</a>
-                    <a href="" class="btn btn-outline-primary">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-    <!-- Skill Start -->
-    <div class="container-fluid py-5" id="skill">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
-                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Python</h6>
-                            <h6 class="font-weight-bold">95%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">C++</h6>
-                            <h6 class="font-weight-bold">70%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Pytorch</h6>
-                            <h6 class="font-weight-bold">60%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Django</h6>
-                            <h6 class="font-weight-bold">90%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">DRF</h6>
-                            <h6 class="font-weight-bold">95%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">transformers</h6>
-                            <h6 class="font-weight-bold">85%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Skill End -->
-
-    <!-- Contact Start -->
-    <div class="container-fluid py-5" id="contact">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="contact-form text-center">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="form-row">
-                                <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group col-sm-6">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
-                                        required="required" data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
-                                    required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
-                                    required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
-                                    Message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Contact End -->
 
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
-        <div class="container text-center py-5">
-            <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-light btn-social mr-2" href="https://github.com/shaheen-coder"><i class="fab fa-github"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/shaheen-vsa"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-light btn-social" href="https://www.instagram.com/shaheen.vsa/"><i class="fab fa-instagram"></i></a>
-            </div>
-            <div class="d-flex justify-content-center mb-3">
-                <a class="text-white" href="#">Privacy</a>
-                <span class="px-3">|</span>
-                <a class="text-white" href="#">Terms</a>
-                <span class="px-3">|</span>
-                <a class="text-white" href="#">FAQs</a>
-                <span class="px-3">|</span>
-                <a class="text-white" href="#">Help</a>
-            </div>
-            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">shaheen.vsa</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://github.com/shaheen-coder">Shaheen</a>
-            </p>
-        </div>
-    </div>
-    <!-- Footer End -->
-
-    <!-- Scroll to Bottom -->
-    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/typed/typed.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
 
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
 </body>
 
 </html>
