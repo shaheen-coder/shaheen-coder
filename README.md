@@ -44,5 +44,7 @@
 
 ## ⚔️ My Contribution
 
+<img width="100%" alt="Github Streaks" src="https://github-readme-streak-stats.herokuapp.com/?user=shaheen-coder&count_private=true&theme=nord&hide_border=true&background=2e3440" />
+
 
 <img width="100%" alt="Contributions" src="https://github-readme-activity-graph.vercel.app/graph?username=shaheen-coder&hide_border=true&theme=nord&bg_color=2e3440" />
